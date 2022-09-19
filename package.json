@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cccx-310/udemy__typescript/issues"
   },
-  "homepage": "https://github.com/cccx-310/udemy__typescript#readme"
+  "homepage": "https://github.com/cccx-310/udemy__typescript#readme",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
 }
