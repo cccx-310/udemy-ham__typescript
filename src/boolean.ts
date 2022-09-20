@@ -1,11 +1,2 @@
-export {};
-
-let name = 'TypeScript';
-
-let isFinished: boolean = true;
-isFinished = false;
-
-// isFinished = 1;
-// error TS2322: Type 'number' is not assignable to type 'boolean'
-
-console.log({ isFinished });
+let message: string = 'hello ts-node-dev';
+console.log({ message });
