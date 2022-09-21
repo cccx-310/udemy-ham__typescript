@@ -30,11 +30,11 @@ enum COLORS {
 }
 
 let green = COLORS.GREEN;
-console.log({ green });
+console.log({ green }); //{ green: '#008000' }
 
-enum COLORS {
+enum COLORS { //付け足しできる
   YELLOW = '#FFFF00',
-  GRAY = 22,
+  GRAY = '#FFFF00', // 他にはあるのに、値設定されてないよ！
 }
 
 COLORS.YELLOW; //キーが無いのでエラー
