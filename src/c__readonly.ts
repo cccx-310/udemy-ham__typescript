@@ -16,6 +16,5 @@ class card {
 
 let visa = new card('Ham');
 console.log(visa.owner);
-
 //visa.owner = 'aaaa';
 //コンパイルエラー：読み取り専用です！
