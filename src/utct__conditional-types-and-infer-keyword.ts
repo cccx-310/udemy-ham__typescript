@@ -7,3 +7,9 @@ function add(a: number, b: number) {
 console.log(add(1, 2));
 
 type Re = ReturnType<typeof add>;
+
+type ReturnType<T extends (...args: any) => any> = T extends (
+  ...args: any
+) => infer R
+  ? R
+  : any;
